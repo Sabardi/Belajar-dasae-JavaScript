@@ -47,3 +47,30 @@ console.log("hasil dari perpangkatan angka1 dan angka2 =", hitung5)
  *  
  */
 // Comparison Operator end
+
+// percabangan start
+/**
+ * if
+ * if/else
+ * if/elseif/else
+ */
+
+//if
+const umur = 17;
+if (umur < 20) {
+    console.log("konten ini tidak bisa di akses")
+}else {
+    console.log("selamat menikmati")
+}
+
+//if/elsif
+if (umur >= 20) {
+    console.log("anda berhasil")
+}else if (umur >= 18) {
+    console.log("anda masuk tahap 1")
+}else if(umur >= 15){
+    console.log("anda masuk tahap 2")
+}else{
+    console.log("anda gagal")
+}
+// percabangan start
