@@ -64,14 +64,14 @@ if (umur < 20) {
 }
 
 //if/elsif
-if (umur >= 20) {
-    console.log("anda berhasil")
-}else if (umur >= 18) {
-    console.log("anda masuk tahap 1")
-}else if(umur >= 15){
-    console.log("anda masuk tahap 2")
+if (umur <= 14) {
+    console.log("anda berhasil lulus")
+}else if (umur >= 16 && umur <= 19 ) {
+    console.log("anda masuk sma")
+}else if(umur >= 13 && umur <= 15){
+    console.log("anda masuk smp")
 }else{
-    console.log("anda gagal")
+    console.log("cek umur anda")
 }
 // percabangan start
 
@@ -108,7 +108,7 @@ while (pe < 10) {
     pe++
 }
 
-let pee = 20;
+let pee = 0;
 do {
     console.log("ulangi yang ke :",pee)
     pee++
