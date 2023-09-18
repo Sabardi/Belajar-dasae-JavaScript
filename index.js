@@ -91,3 +91,27 @@ switch (kelas) {
         console.log("silahkan cek umur anda")
         break;
 }
+
+//perulangan 
+/**perulangan
+ * for
+ * while
+ * do while
+ */
+for (let ulang = 0; ulang < 10; ulang++) {
+    console.log("mengulang yang ke : "+ ulang)    
+}
+//while
+let pe = 0
+while (pe < 10) {
+    console.log("pengulangan yang ke : ",pe)
+    pe++
+}
+
+let pee = 20;
+do {
+    console.log("ulangi yang ke :",pee)
+    pee++
+} while (pee < 10){
+    console.log("ulangi yang ke :",pee)
+}
