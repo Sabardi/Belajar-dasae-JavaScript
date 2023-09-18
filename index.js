@@ -33,3 +33,17 @@ console.log("hasil dari pembagian angka1 dan angka2 =", hitung3)
 console.log("hasil dari sisa bagi angka1 dan angka2 =", hitung4)
 console.log("hasil dari perpangkatan angka1 dan angka2 =", hitung5)
 //oprator end
+
+// Operator perbandingan start
+/**
+ * == membandingkan nilai / sama dengan
+ * != tidak sama dengan 
+ *  === membandingkan kedua nilai sama atau tidak sama
+ * !== membandingkan kedua nilai tidak sama atau sama
+ * > lebih besar 
+ * < lebih kecil
+ * >= lebih besar sama dengan
+ * <= lebih kecil sama dengan
+ *  
+ */
+// Comparison Operator end
