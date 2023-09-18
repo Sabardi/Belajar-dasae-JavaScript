@@ -56,7 +56,7 @@ console.log("hasil dari perpangkatan angka1 dan angka2 =", hitung5)
  */
 
 //if
-const umur = 17;
+const umur = 15;
 if (umur < 20) {
     console.log("konten ini tidak bisa di akses")
 }else {
@@ -74,3 +74,20 @@ if (umur >= 20) {
     console.log("anda gagal")
 }
 // percabangan start
+
+//swicth
+const kelas = 16;
+switch (kelas) {
+    case 16:
+        console.log("anda masuk sma")
+        break;
+    case  13:
+        console.log("anda masuk smp")
+        break;
+    case  12:
+        console.log("anda masih sd")
+        break;
+    default:
+        console.log("silahkan cek umur anda")
+        break;
+}
