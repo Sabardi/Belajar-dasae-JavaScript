@@ -13,5 +13,4 @@ console.log("perkenalkan saya : ",fullname)
 let angka1 = 1
 let angka2 = 10
 let hitung = angka1 + angka2
-
 console.log("hasil dari perhitungan angka1 dan angka2", hitung)
