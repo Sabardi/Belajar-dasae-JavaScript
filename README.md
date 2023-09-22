@@ -9,3 +9,10 @@ namaArray.length = length berfungsi untuk mengetahui banyak data nya
 Spread Operator
 ---------------
 Spread (menyebar) operator  dituliskan dengan tiga titik (...).
+
+Destructuring Object & Array
+----------------------------
+Penulisan sintaksis destructuring object pada ES6 menggunakan object literal ({ }) di sisi kiri dari operator assignment.
+Destructuring Assignment
+------------------------
+pada kasus tertentu mungkin kita perlu melakukannya pada variabel yang sudah dideklarasikan.
