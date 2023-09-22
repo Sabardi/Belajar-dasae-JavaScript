@@ -24,3 +24,18 @@ const favorites = ["Seafood", "Salad", "Nugget", "Soup"];
 // console.log(fourthFood)
 const [,, thirdFood] = favorites; //
 console.log(thirdFood)
+
+var name1 = 1
+var name2 = 2
+console.log("sebelum di swap")
+console.log("nilai nama1 : " + name1)
+console.log("nilai nama2 : " + name2)
+
+temp = name1
+
+name1 = name2
+name2 = temp
+
+console.log("sesudah di swap")
+console.log("nilai nama1 : " + name1)//menukar nilai 
+console.log("nilai nama2 : " + name2)//menukar nilai 
