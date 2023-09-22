@@ -30,20 +30,17 @@ function minimal (a,b) {
       return b;
     }
   }
-  console.log(minimal(1, 4)) // output: 1
+  console.log(minimal(1, 4))
   console.log(minimal(3, 2))
   console.log(minimal(3, 3))
-  
+
   function findIndex(array, number){
-  
+
     for(let i = 0; i < array.length; i++)
-  
       if(array[i]===number){
-  
-        return[i];
-      }else{
-        return -1;
+        return i;
       }
+      return-1
   }
   
   console.log(findIndex([1, 2, 3, 4, 5], 3))
@@ -51,5 +48,4 @@ function minimal (a,b) {
   console.log(findIndex([1, 2, 3, 4, 5], 6))
   
   console.log(findIndex([1, 2, 3, 4, 5], 5))
-  
   
