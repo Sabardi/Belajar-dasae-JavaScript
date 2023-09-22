@@ -24,3 +24,5 @@ Ketika mendestruksikan objek dan menetapkan variabel dengan nama yang bukan meru
 
 Destructuring Array
 -------------------
+destructuring array bekerja berdasarkan posisi daripada penamaan propertinya.
+Kita juga bisa memilih nilai pada index tertentu untuk destrukturisasi pada array Lebih lanjut, tanda koma (,) tetap diperlukan untuk menunjukkan posisi index-nya.
