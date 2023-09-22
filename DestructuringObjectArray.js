@@ -7,7 +7,9 @@ let nama = "budi";
 let umur = 20;
 
 // menginisialisasi nilai baru melalui destructuring object
-({nama, umur} = Profile);
+({nama, umur, hallo} = Profile);//menambahkan hallo untuk Default Values
+({nama, umur, hallo = "p"} = Profile);//memberikaan nilai deful supaya terbaca hallo ini
 
 console.log(nama);
 console.log(umur);
+console.log(hallo);
