@@ -17,3 +17,7 @@ Destructuring Assignment
 ------------------------
 pada kasus tertentu mungkin kita perlu melakukannya pada variabel yang sudah dideklarasikan.
 Saat melakukan destructuring assignment, kita perlu menuliskan destructuring object di dalam tanda kurung. Jika tidak menuliskan tanda kurung, tanda kurung kurawal akan membuat JavaScript mengira kita membuat block statement, sementara block statement tidak bisa berada pada sisi kiri assignment.
+
+Default Values
+--------------
+Ketika mendestruksikan objek dan menetapkan variabel dengan nama yang bukan merupakan properti dari objek, maka nilai dari variabel tersebut menjadi undefined
