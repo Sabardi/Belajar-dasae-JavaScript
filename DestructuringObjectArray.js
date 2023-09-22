@@ -13,3 +13,9 @@ let umur = 20;
 console.log(nama);
 console.log(umur);
 console.log(hallo);
+
+// Destructuring Array
+
+const favorites = ["Seafood", "Salad", "Nugget", "Soup"];
+const [firstFood, secondFood, thirdFood, fourthFood] = favorites;
+console.log(favorites)

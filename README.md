@@ -21,3 +21,6 @@ Saat melakukan destructuring assignment, kita perlu menuliskan destructuring obj
 Default Values
 --------------
 Ketika mendestruksikan objek dan menetapkan variabel dengan nama yang bukan merupakan properti dari objek, maka nilai dari variabel tersebut menjadi undefined
+
+Destructuring Array
+-------------------
