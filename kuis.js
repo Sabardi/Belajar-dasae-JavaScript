@@ -96,3 +96,23 @@ console.log(city)
 // No 3
 const favoriteDrink = restaurant["favorite drink"]//digunakan untuk mengakses key yang memiliki spasi atau karakter
 console.log(favoriteDrink)
+
+//kuis array
+console.log("===kuis function===")
+
+/**
+ * TODO:
+ * Buatlah sebuah variabel dengan nama evenNumber yang merupakan sebuah array dengan ketentuan:
+ *   - Array tersebut menampung bilangan genap dari 1 hingga 100
+ *
+ * Catatan:
+ *   - Agar lebih mudah, gunakanlah for loop dan logika if untuk mengisi bilangan genap pada array.
+ */
+
+const evenNumber = []
+for (let i = 1; i <= 100; i++){
+  if(i % 2 === 0){
+    evenNumber.push(i)//menambahkan data di akhir array
+  }
+}
+console.log(evenNumber)
