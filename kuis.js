@@ -21,6 +21,7 @@
  */
 
 // Tulis kode di bawah ini
+console.log("===kuis function===")
 function minimal (a,b) {
     if(a === b){
       return a;
@@ -34,6 +35,7 @@ function minimal (a,b) {
   console.log(minimal(3, 2))
   console.log(minimal(3, 3))
 
+  console.log("====")
   function findIndex(array, number){
 
     for(let i = 0; i < array.length; i++)
@@ -48,4 +50,49 @@ function minimal (a,b) {
   console.log(findIndex([1, 2, 3, 4, 5], 6))
   
   console.log(findIndex([1, 2, 3, 4, 5], 5))
-  
+
+  // kuis
+/**
+ * TODO
+ * 1. Buatlah variabel dengan nama restaurant yang bertipe object dengan ketentuan berikut:
+ *    - Memiliki properti bernama "name"
+ *       - Bertipe data string
+ *       - Bernilai "Bakso Mang Dicoding".
+ *    - Memiliki properti bernama "city"
+ *       - Bertipe data string
+ *       - Bernilai "Bandung".
+ *    - Memiliki properti "favorite drink"
+ *       - Bertipe data string
+ *       - Bernilai "Es Teh".
+ *    - Memiliki properti "favorite food"
+ *       - Bertipe data string
+ *       - Bernilai "Bakso".
+ *    - Memiliki properti "isVegan"
+ *       - Bertipe data boolean
+ *       - Bernilai false.
+ *
+ * 2. Buatlah variabel bernama name.
+ *    Kemudian isi dengan nilai name dari properti object restaurant
+ * 3. Buatlah variabel bernama favoriteDrink.
+ *    Kemudian isi dengan nilai "favorite drink" dari properti object
+ *  restaurant
+*/
+
+
+// No 1
+const restaurant = {
+  name : "Bakso Mang Dicoding",
+  city : "Bandung",
+  "favorite drink" : "Es Teh",
+  "favorite food" : "Bakso",
+  isVegan : true
+}
+
+// No 2
+const name = restaurant.name
+console.log(name)
+const city = restaurant.city
+console.log(city)
+// No 3
+const favoriteDrink = restaurant["favorite drink"]//digunakan untuk mengakses key yang memiliki spasi atau karakter
+console.log(favoriteDrink)
