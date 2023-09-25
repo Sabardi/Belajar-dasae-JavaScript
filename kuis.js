@@ -98,7 +98,7 @@ const favoriteDrink = restaurant["favorite drink"]//digunakan untuk mengakses ke
 console.log(favoriteDrink)
 
 //kuis array
-console.log("===kuis function===")
+console.log("===kuis array===")
 
 /**
  * TODO:
@@ -116,3 +116,26 @@ for (let i = 1; i <= 100; i++){
   }
 }
 console.log(evenNumber)
+
+console.log("===kuis map===")
+/**
+ * TODO:
+ * 1. Buatlah variabel currency yang merupakan Map dengan kriteria:
+ *   - key "USD", value 14000
+ *   - key "JPY", value 131
+ *   - key "SGD", value 11000
+ *   - key "MYR", value 3500
+ * 2. Buatlah variabel priceInIDR yang bernilai dari hasil perkalian:
+ *     - priceInJPY dengan nilai currency JPY
+ */
+const priceInJPY = 5000
+const currency = new Map([
+  ["USD",14000],
+  ["JPY",131],
+  ["SGD",11000], 
+  ["MYR",3500] 
+])
+console.log(currency)
+
+const priceInIDR = priceInJPY * (currency.get("JPY"))
+console.log(priceInIDR)
