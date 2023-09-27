@@ -128,7 +128,8 @@ console.log("===kuis map===")
  * 2. Buatlah variabel priceInIDR yang bernilai dari hasil perkalian:
  *     - priceInJPY dengan nilai currency JPY
  */
-const priceInJPY = 5000
+const priceInJPY = 5000 // nilai priceinjpy harus  5000 dari perintah nya 
+
 const currency = new Map([
   ["USD",14000],
   ["JPY",131],
