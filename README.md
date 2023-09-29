@@ -39,3 +39,13 @@ Parameter & Argument
 Parameter merupakan variabel yang didefinisikan sebagai input dari sebuah fungsi.
 Argument merupakan nilai atau expression yang dimasukkan ke dalam fungsi. 
 ex => function namafungsi(a,b){} (a dan b) merupakan parameter
+function dapat menghasilkan output atau mengembalikan sebuah nilai (return)
+ketika statement return tereksekusi, maka fungsi akan langsung terhenti dan mengembalikan nilai.
+
+Expression Function
+-------------------
+expression adalah kode atau instruksi yang mengembalikan nilai, sehingga expression function bisa disimpan dalam sebuah variabel.
+
+Function Parameter
+------------------
+Jika parameter dari fungsi adalah sebuah object, kita juga bisa memanfaatkan destructuring object untuk mendapatkan nilainya
