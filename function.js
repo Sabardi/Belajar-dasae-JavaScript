@@ -105,6 +105,16 @@ console.log(sum(1,2,3,4,5))
 Kita tetap menuliskan parameter di dalam tanda kurung lalu diikuti dengan tanda panah (=>)
 sebelum kurung kurawal.
 */
+// function expression
+function displayresult(data){
+  console.log(data)
+}
+function sumtwonumber(x,y, callback) {
+  const hasil = x + y
+  callback(hasil)
+}
+sumtwonumber(10,5,displayresult)
+
 
 const sayHello = (sapa) => {
   console.log(`Hallo ${sapa}!`)
@@ -129,4 +139,21 @@ const Sapa = () => console.log("Selamat pagi")
 
 Sapaan("ibrahim")
 sapa()
+
+//Closure dan //  fungsi di dalam fungsi
+
+function init(){
+  
+  const namaku = 'sabardi' // yaitu variabel lokal di fungsi init
+  
+  function menyapa(){ //inner function/ fungsi di dalam fungsi
+    console.log(`Halo, ${namaku}`) //memanggil variabel yang di deklarasikan di parent fungsi /di fungsi init
+  }
+//  menyapa() //or
+  return menyapa
+}
+
+// init() //or
+const myfunfungsi =init();
+myfunfungsi();
 
