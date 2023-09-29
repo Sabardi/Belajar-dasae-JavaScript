@@ -30,4 +30,12 @@ Kita juga bisa memilih nilai pada index tertentu untuk destrukturisasi pada arra
 Destructuring Assignment
 ------------------------
 Kita juga bisa melakukan destructuring assignment pada array. Namun, tidak seperti object, kita tidak perlu membungkusnya dengan tanda kurung.
+Function
+--------
+function merupakan sebuah variabel yang berisi blok logika. dan blok kode nya akan di eksekusi jika di panggil
 
+Parameter & Argument
+-------------------
+Parameter merupakan variabel yang didefinisikan sebagai input dari sebuah fungsi.
+Argument merupakan nilai atau expression yang dimasukkan ke dalam fungsi. 
+ex => function namafungsi(a,b){} (a dan b) merupakan parameter
