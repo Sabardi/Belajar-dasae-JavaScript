@@ -98,3 +98,35 @@ function sum(...numbers){
 }
 
 console.log(sum(1,2,3,4,5))
+
+// function expression
+
+/*Pada arrow function kita tidak perlu menuliskan keyword function setiap membuat fungsi.
+Kita tetap menuliskan parameter di dalam tanda kurung lalu diikuti dengan tanda panah (=>)
+sebelum kurung kurawal.
+*/
+
+const sayHello = (sapa) => {
+  console.log(`Hallo ${sapa}!`)
+}
+ 
+const sayName = (name) => {
+  console.log(`Nama saya ${name}`)
+}
+
+sayHello("burhan")
+sayName("burhan")
+
+//namun jika tidak membutuhkan parameter
+const sapa = ()=> {
+  console.log("Hallo semua")
+}
+sapa()
+
+// ketika body dari function hanya terdiri dari satu baris, kita bisa menghapus tanda kurung kurawal.
+const Sapaan = nama => console.log(`Hallo ${nama}!`) //tanpa kurung kuraawal
+const Sapa = () => console.log("Selamat pagi")
+
+Sapaan("ibrahim")
+sapa()
+
